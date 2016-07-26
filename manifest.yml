@@ -1,0 +1,9 @@
+---
+applications:
+- name: jupyter-presentation-template
+  host: myslides-on-cf
+  memory: 128MB
+  disk_quota: 256MB
+  random-route: false
+  buildpack: python_buildpack
+  command: python run.py
