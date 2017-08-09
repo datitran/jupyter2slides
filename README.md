@@ -39,9 +39,6 @@ If you need to change the footer, open `jupyter_template.tpl` and go to `Change 
 ###### Where did you get the image and favicon?
 The image used for the cover slide is from [Pexel](https://www.pexels.com/) and the favicon is from [freefavicon](http://www.freefavicon.com/). They are both free to use.
 
-###### Why did you take the color scheme from Pivotal?
-Because I work at this company and I use this template for my work and particularly for talks where I represent the company as well.
-
 ###### Can I change the name of the jupyter notebook?
 Yes, you can but make sure to adjust the code for `jupyter nbconvert new_name.ipynb ...`, `python clean_html.py new_name.ipynb` and also in the `run.py` file.
 
