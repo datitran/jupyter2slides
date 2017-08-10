@@ -6,4 +6,4 @@ applications:
   disk_quota: 256MB
   random-route: false
   buildpack: python_buildpack
-  command: python run.py
+  command: python run.py --file static/presentation_template.slides.html

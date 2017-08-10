@@ -1,3 +1,3 @@
 c = get_config()
 
-c.Exporter.template_file = 'jupyter_template'
+c.Exporter.template_file = 'static/jupyter_template'

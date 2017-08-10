@@ -135,10 +135,10 @@ ul li{
 
 ul li:before {
   display: inline-block;
-  content: "\25CB";
+  content: "\25CD";
   width: 1em;
   margin-left: -1em;
-  color: #1F6FB8;
+  color: #000000;
 }
 
 /* Correct for links in list */
@@ -176,7 +176,7 @@ ol li ul li:before {
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  color: darkblue;
+  color: #2D7FDD;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
@@ -185,8 +185,9 @@ ol li ul li:before {
   transition: color .15s ease; }
 
 .reveal a:not(.image):hover {
-  color: #0000f1;
+  color: #2D7FDD;
   text-shadow: none;
+  text-decoration: underline;
   border: none; }
 
 .reveal .roll span:after {
