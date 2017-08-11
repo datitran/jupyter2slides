@@ -35,7 +35,7 @@ Moreover, we live in a cloud native world with a cloud native lifestyle, cloud n
 - reveal.js 3.1.0
 
 #### Demo:
-- [Presentation Template](http://myslides-on-cf.cfapps.io/)
+- [Presentation Template](http://myslides-on-cf.cfapps.io/) | [PDF](https://u7410512.dl.dropboxusercontent.com/u/7410512/presentation_template.pdf)
 
 ## FAQ
 
