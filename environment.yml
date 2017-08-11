@@ -1,9 +1,8 @@
-name: jupyter-presentation-template
+name: jupyter2slides
 channels: !!python/tuple
 - menpo
 - defaults
 dependencies:
-- appnope=0.1.0=py35_0
 - bleach=1.5.0=py35_0
 - decorator=4.1.2=py35_0
 - entrypoints=0.2.3=py35_0
@@ -62,5 +61,5 @@ dependencies:
   - jupyter-console==5.1.0
   - jupyter-core==4.3.0
   - prompt-toolkit==1.0.14
-prefix: /Users/datitran/anaconda/envs/jupyter-presentation-template
+prefix: /Users/datitran/anaconda/envs/jupyter2slides
 

@@ -48,7 +48,7 @@ if( window.location.search.match( /print-pdf/gi ) ) {
 <style type="text/css">
 /* Overrides of notebook CSS for static HTML export */
 html {
-  overflow-y: auto;
+  overflow-y: visible;
 }
 .reveal {
   font-size: 160%;
