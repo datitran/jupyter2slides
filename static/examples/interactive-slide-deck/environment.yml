@@ -1,0 +1,93 @@
+name: interactive-presentation-slides
+channels: !!python/tuple
+- menpo
+- defaults
+dependencies:
+- appnope=0.1.0=py35_0
+- bkcharts=0.2=py35_0
+- bleach=1.5.0=py35_0
+- bokeh=0.12.6=py35_0
+- click=6.7=py35_0
+- cycler=0.10.0=py35_0
+- decorator=4.1.2=py35_0
+- entrypoints=0.2.3=py35_0
+- flask=0.12.2=py35_0
+- freetype=2.5.5=2
+- hdf5=1.8.17=2
+- html5lib=0.9999999=py35_0
+- icu=54.1=0
+- ipykernel=4.6.1=py35_0
+- ipython=6.1.0=py35_0
+- ipython_genutils=0.2.0=py35_0
+- itsdangerous=0.24=py35_0
+- jedi=0.10.2=py35_2
+- jinja2=2.9.6=py35_0
+- jsonschema=2.6.0=py35_0
+- jupyter=1.0.0=py35_3
+- jupyter_client=5.1.0=py35_0
+- jupyter_console=5.1.0=py35_0
+- jupyter_core=4.3.0=py35_0
+- libpng=1.6.27=0
+- markupsafe=0.23=py35_2
+- matplotlib=2.0.2=np113py35_0
+- menpo::ipywidgets=5.1.5=py35_0
+- menpo::opencv3=3.1.0=py35_0
+- menpo::tbb=4.3_20141023=0
+- menpo::widgetsnbextension=1.2.3=py35_1
+- mistune=0.7.4=py35_0
+- mkl=2017.0.3=0
+- mpld3=0.2=py35_0
+- nbconvert=5.2.1=py35_0
+- nbformat=4.3.0=py35_0
+- notebook=5.0.0=py35_0
+- numpy=1.13.1=py35_0
+- openssl=1.0.2l=0
+- pandas=0.20.3=py35_0
+- pandocfilters=1.4.1=py35_0
+- path.py=10.3.1=py35_0
+- pexpect=4.2.1=py35_0
+- pickleshare=0.7.4=py35_0
+- pip=9.0.1=py35_1
+- plotly=2.0.11=py35_0
+- prompt_toolkit=1.0.14=py35_0
+- ptyprocess=0.5.2=py35_0
+- pygments=2.2.0=py35_0
+- pyparsing=2.2.0=py35_0
+- pyqt=5.6.0=py35_2
+- python=3.5.3=1
+- python-dateutil=2.6.1=py35_0
+- pytz=2017.2=py35_0
+- pyyaml=3.12=py35_0
+- pyzmq=16.0.2=py35_0
+- qt=5.6.2=2
+- qtconsole=4.3.0=py35_0
+- readline=6.2=2
+- requests=2.14.2=py35_0
+- scipy=0.19.1=np113py35_0
+- setuptools=27.2.0=py35_0
+- simplegeneric=0.8.1=py35_1
+- sip=4.18=py35_0
+- six=1.10.0=py35_0
+- sqlite=3.13.0=0
+- terminado=0.6=py35_0
+- testpath=0.3.1=py35_0
+- tk=8.5.18=0
+- tornado=4.5.1=py35_0
+- traitlets=4.3.2=py35_0
+- wcwidth=0.1.7=py35_0
+- werkzeug=0.12.2=py35_0
+- wheel=0.29.0=py35_0
+- xz=5.2.2=1
+- yaml=0.1.6=0
+- zlib=1.2.8=3
+- pip:
+  - branca==0.2.0
+  - colorlover==0.2.1
+  - folium==0.3.0
+  - ipython-genutils==0.2.0
+  - jupyter-client==5.1.0
+  - jupyter-console==5.1.0
+  - jupyter-core==4.3.0
+  - prompt-toolkit==1.0.14
+prefix: /Users/datitran/anaconda/envs/interactive-presentation-slides
+
