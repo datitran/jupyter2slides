@@ -1,0 +1,9 @@
+---
+applications:
+- name: jupyter2slides-interactive
+  host: interactive-slides
+  memory: 128MB
+  disk_quota: 256MB
+  random-route: false
+  buildpack: python_buildpack
+  command: python run.py --file static/interactive_examples.slides.html
