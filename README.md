@@ -21,7 +21,7 @@ Moreover, we live in a cloud native world with a cloud native lifestyle, cloud n
     python run.py --file static/presentation_template.slides.html
     ```
     or just use `cf push` to push it to the cloud. I use Flask to serve those static files.
-    
+
 4. To convert the slides to pdf, I use [decktape](https://github.com/astefanutti/decktape):
     ```
     cd decktape-1.0.0/
@@ -35,7 +35,8 @@ Moreover, we live in a cloud native world with a cloud native lifestyle, cloud n
 - reveal.js 3.1.0
 
 #### Demo:
-- [Presentation Template](http://myslides-on-cf.cfapps.io/) | [PDF](https://u7410512.dl.dropboxusercontent.com/u/7410512/presentation_template.pdf)
+- [Presentation Template](http://myslides-on-cf.cfapps.io/) | [PDF](https://www.slideshare.net/DatTran33/presentation-template-from-jupyter2slides)
+- [Interactive Template](http://interactive-slides.cfapps.io/) | [PDF](https://www.slideshare.net/DatTran33/interactive-slide-deck-jupyter2slides)
 
 ## FAQ
 
