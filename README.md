@@ -11,9 +11,9 @@ Moreover, we live in a cloud native world with a cloud native lifestyle, cloud n
 ## Getting Started
 
 1. Create the conda environment:
-  ```
-  conda env create -f environment.yml
-  ```
+    ```
+    conda env create -f environment.yml
+    ```
 2. You can find a notebook template in the `static` folder which contains some examples like cover and divider slides, markdown syntax and many more. Here is a [link](http://www.slideviper.oquanta.info/tutorial/slideshow_tutorial_slides.html#/3) for a nice intro into creating slides with Jupyter notebook.
 3. When you are done with editing your notebook, you need to generate the slides with this command:
     ```
