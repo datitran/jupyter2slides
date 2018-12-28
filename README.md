@@ -10,19 +10,23 @@ Moreover, we live in a cloud native world with a cloud native lifestyle, cloud n
 
 ## Getting Started
 
-1. You can find a notebook template in the `static` folder which contains some examples like cover and divider slides, markdown syntax and many more. Here is a [link](http://www.slideviper.oquanta.info/tutorial/slideshow_tutorial_slides.html#/3) for a nice intro into creating slides with Jupyter notebook.
-2. When you are done with editing your notebook, you need to generate the slides with this command:
+1. Create the conda environment:
+  ```
+  conda env create -f environment.yml
+  ```
+2. You can find a notebook template in the `static` folder which contains some examples like cover and divider slides, markdown syntax and many more. Here is a [link](http://www.slideviper.oquanta.info/tutorial/slideshow_tutorial_slides.html#/3) for a nice intro into creating slides with Jupyter notebook.
+3. When you are done with editing your notebook, you need to generate the slides with this command:
     ```
     # from ./jupyter2slides/
     python create_slides.py --file static/presentation_template.ipynb
     ```
-3. Now you can either call this command to serve the presentation on your local machine
+4. Now you can either call this command to serve the presentation on your local machine
     ```
     python run.py --file static/presentation_template.slides.html
     ```
     or just use `cf push` to push it to the cloud. I use Flask to serve those static files.
 
-4. To convert the slides to pdf, I use [decktape](https://github.com/astefanutti/decktape):
+5. To convert the slides to pdf, I use [decktape](https://github.com/astefanutti/decktape):
     ```
     cd decktape-1.0.0/
     ./phantomjs decktape.js generic --keycode=Space "http://0.0.0.0:9099/" presentation_template.pdf
@@ -30,8 +34,8 @@ Moreover, we live in a cloud native world with a cloud native lifestyle, cloud n
     or you can also use the [`?print-pdf`](https://github.com/hakimel/reveal.js/#pdf-export) option but this is not recommended as the formatting is not displayed correctly.
 
 #### Requirements:
-- Python 3.5.2
-- nbconvert 5.2.1
+- Python 3.6.*
+- nbconvert 5.3.*
 - reveal.js 3.1.0
 
 #### Demo:
